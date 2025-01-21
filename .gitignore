@@ -1,0 +1,18 @@
+# Thư mục node_modules (chứa các thư viện cài đặt từ npm/yarn)
+node_modules/
+
+# File lock (dùng để quản lý phiên bản thư viện, không cần thiết khi làm việc nhóm)
+package-lock.json
+
+# File môi trường (chứa thông tin nhạy cảm như API keys, DB credentials)
+.env
+
+# Thư mục log (chứa log server, không cần lưu trữ)
+logs/
+*.log
+npm-debug.log*
+
+# File debugger và profile
+.vscode/
+.idea/
+*.code-workspace
