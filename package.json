@@ -23,6 +23,8 @@
   "homepage": "https://github.com/koha11/Web-Chat#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pug": "^3.0.3"
   }
 }
