@@ -1,10 +1,10 @@
 const homeRouter = require('./home');
-const messageRouter = require('./home');
+const messageRouter = require('./message');
 const accountRouter = require('./home');
 
 function route(app) {
   app.use('/', homeRouter);
-  app.use('/message', messageRouter);
+  app.use('/m', messageRouter);
   app.use('/me', accountRouter);
 }
 

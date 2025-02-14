@@ -2,10 +2,16 @@ doctype html
 html
   head
     title My Web App
+    link(rel="stylesheet", href="/css/output.css")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap")
+    link(rel="stylesheet", href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css")
     block links
+    style.
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
   body
-    header
-      h1 Welcome to My Web App
     main
-      block content  // Block nội dung chính sẽ thay đổi tùy vào từng view
+      block content
       block scripts
