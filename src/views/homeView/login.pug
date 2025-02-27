@@ -5,9 +5,9 @@ block content
     img(src="/images/logo-mess.svg", alt="", srcset="", class="")
     h2(class="py-4 text-3xl font-mono font-bold")
       = "WEB CHAT"
-    form(action="", method="post", class="flex flex-col w-[40%] items-center mt-12") 
-      input(type="text", name="un", placeholder="Email hoặc số điện thoại", class="py-2 px-3 border rounded border-gray-400 w-full")
-      input(type="password", name="pwd", placeholder="Mật khẩu", class="py-2 px-3 mt-6 border rounded border-gray-400 w-full")
+    form(action="/signin", method="post", class="flex flex-col w-[40%] items-center mt-12") 
+      input(type="text", name="username", placeholder="Email hoặc số điện thoại", class="py-2 px-3 border rounded border-gray-400 w-full")
+      input(type="password", name="password", placeholder="Mật khẩu", class="py-2 px-3 mt-6 border rounded border-gray-400 w-full")
       button(type="submit", class="bg-blue-700 text-white p-2 cursor-pointer w-[20%] hover:opacity-70 rounded-4xl mt-6") 
         = "Tiếp tục"
       div(class="mt-6")
@@ -20,6 +20,3 @@ block content
         = "Đăng ký"
       a(href="", class="cursor-pointer hover:opacity-70")
         = "Quên mật khẩu"
-
-
-       
